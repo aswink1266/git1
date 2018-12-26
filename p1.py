@@ -16,7 +16,7 @@ print(type(datetime_object))
 print(datetime_object)
 
 
-def list_of_swapi(site, name):
+def list_of_swapi(site, name)
       request_site = requests.get(site + str(i))
 #     results = request_site.json().get("results")
 #     list1 = []
