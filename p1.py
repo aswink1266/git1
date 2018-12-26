@@ -1,9 +1,6 @@
 import requests
 from datetime import datetime
 from urllib.parse import urlparse
-# import requests
-# r = requests.get('https://api.github.com/events')
-# print(type(r.json()))
 url1 = urlparse('//www.cwi.nl:80/%7Eguido/Python.html')
 print(url1)
 
